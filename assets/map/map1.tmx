@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2018.01.01" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="16" tileheight="16" infinite="0" nextobjectid="30">
+ <tileset firstgid="1" name="map" tilewidth="16" tileheight="16" spacing="6" margin="3" tilecount="121" columns="11">
+  <image source="../graphics/map.png" width="242" height="242"/>
+ </tileset>
+ <tileset firstgid="122" name="texture" tilewidth="16" tileheight="16" spacing="6" margin="3" tilecount="121" columns="11">
+  <image source="../texture.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="243" source="entities.tsx"/>
+ <layer name="ground" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBg4BkEOITO+gYSRwxQWA2Euyn160DgkZimBqt7B7u/kNNKJgXuHuz+pCfOROOPhLBB9/NQwpSk+4HGALoxINU=
+  </data>
+ </layer>
+ <objectgroup name="entities">
+  <object id="25" type="Player" gid="246" x="19.5" y="282.5" width="48" height="48"/>
+  <object id="26" type="Slime" gid="245" x="173" y="181.5" width="32" height="32"/>
+  <object id="27" type="Slime" gid="245" x="292.5" y="186" width="32" height="32"/>
+  <object id="28" type="Slime" gid="245" x="337.5" y="165" width="32" height="32"/>
+  <object id="29" type="Slime" gid="245" x="352" y="101.5" width="32" height="32"/>
+ </objectgroup>
+ <layer name="bgd_1" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhZgI3K6gYrSAbibBLUm5BhHiE95No3D4jnAPFcCsynFCwH4hUDaD8tATlpmw0Nw0A6EFsgYX40vjgF7kROI+j2woAciXxqg1H76Ws/ermhQmXzQYDUspNUQEm5SS6gtZ/IBZIU6sdWJpECACDOC2E=
+  </data>
+ </layer>
+ <layer name="fgd_1" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtACsQJwwiM0bBaNgFIyCwQiGY1k3HP00HAAAg/0BlQ==
+  </data>
+ </layer>
+</map>
